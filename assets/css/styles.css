@@ -334,6 +334,16 @@ a {
   }
 }
 
+@media screen and (max-width: 888px){
+  .form-container h2{
+    display: none;
+  }
+
+  .flex{
+    margin-top: 20%;
+  }
+}
+
 .home-section{
   position: relative;
   width: 100%;
@@ -413,7 +423,7 @@ a {
 }
 
 .flex{
-  margin-top: 80px;
+  margin-top: 7%;
   display: flex;
   justify-content: space-between;
 }
