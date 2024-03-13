@@ -9,7 +9,7 @@
       <link rel="icon" href="./assets/Images/LOGO SYNAT.jpg" type="image/x-icon">
 
       <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="assets/css/home.css">
 
       <title>SYNAT-CI</title>
    </head>
@@ -37,11 +37,6 @@
                      </div>
 
                      <ul class="dropdown__menu">
-                        <li>
-                           <a href="#" class="dropdown__link">
-                              <i class="ri-pie-chart-line"></i> Devenir Membre
-                           </a>                          
-                        </li>
 
                         <li>
                            <a href="#" class="dropdown__link">
@@ -171,7 +166,50 @@
 
 
 
-                 
+                  <!--<li class="dropdown__item">
+                     <div class="nav__link">
+                         <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-user-line"></i> Historiques
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-lock-line"></i> References Légales
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> Organisations
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> B.E
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> Conseils Syndicales
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> contacts
+                           </a>
+                        </li>
+                     </ul>
+                  </li>-->
+
                   <!--=============== DROPDOWN 2 ===============-->
                   
 
@@ -179,6 +217,45 @@
                </ul>
             </div>
 
+            <img class="image" src="./assets/Images/User.png" onclick="toggleMenu()">
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img  src="./assets/Images/User.png" alt="">
+                        <h2>Franck Olivier Kouame</h2>
+                    </div>
+                    <hr>
+
+
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="./assets/Images/logoUser.png" alt="">
+                        <p>Edit Profil</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="./assets/Images/settingLogo.png" alt="">
+                        <p>Setting & Privacy</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="./assets/Images/privacyLogo.png" alt="">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="./assets/Images/LogoutLogo.png" alt="">
+                        <p>Deconnexion</p>
+                        <span>></span>
+                    </a>
+
+                    
+                </div>
+            </div>
          </nav>
       </header>
 
@@ -189,7 +266,6 @@
          <div class="object">
             <div class="pourBtn">
                <div class="btn">
-               <a href="./register.html"><button class="btn1">Devenir Membre</button></a>
                <a href="#"><button class="btn2" id="addContactModalButton">Somettre une revendication</button></a>
             </div>
             <div id="contactModal" class="modal">
@@ -213,15 +289,9 @@
       </section>
 
 
-      <section class="accueil">
-         <div class="titrePrinc">
-            <h1>Bienvenue Au Synat-CI</h1>
-            <p>Beneficiez de conseils et d’ accompagnemment mutuelle,
-               un Syndicat près de ses membre</p>
-         </div>
-      </section>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
+      <script src="assets/js/home.js"></script>
    </body>
 </html>
