@@ -344,8 +344,8 @@ a {
   }
 }
 .partenariat {
-  max-width: 1140px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: auto;
 }
 
 .parImg img{
@@ -356,6 +356,8 @@ a {
 
 .separeApres {
   margin-top: 60px;
+  display: flex;
+  gap: 70px;
 }
 .cave1{
   height: 155px;
