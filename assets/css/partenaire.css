@@ -362,9 +362,56 @@ a {
 .cave1{
   height: 155px;
   width: 40%;
-  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(220, 24%, 12%);
+}
+.cave1 p{
+  color: #fff;
+}
+
+.titlePartner{
+  margin-top: 50px;
+}
+.titlePartner h2{
+  text-align: center;
+}
+
+.textPartner p{
+  text-align: center;
+}
+
+.posts{
+  margin-top: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 15px;
+}
+.post img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.cartePartner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carPart{
+  height: 500px;
+  width: 90%;
+  background-color: hsl(220, 24%, 12%);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.carPart1{
+  height: 450px;
+  width: 95%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
