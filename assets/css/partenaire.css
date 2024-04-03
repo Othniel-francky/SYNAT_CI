@@ -382,6 +382,22 @@ a {
   text-align: center;
 }
 
+button{
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.myButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
 .posts{
   margin-top: 30px;
   justify-content: center;
@@ -411,7 +427,73 @@ a {
 .carPart1{
   height: 450px;
   width: 95%;
-  border: 1px solid red;
+  
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.myTextPartner{
+  color: #fff;
+}
+
+.div1{
+  height: 150px;
+  width: 150px;
+  
+}
+
+.classeur{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.div1{
+  position: relative;
+}
+
+.Apropos{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* couleur de fond semi-transparente */
+  color: white; /* couleur du texte */
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.Apropos p{
+  margin-bottom: 10px;
+}
+
+.div1 img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.encrePartner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.veutPartnaire{
+  height: 350px;
+  width: 90%;
+  border: 1px solid red;
+}
+
+.devenezPartenaire{
+  height: 300px;
+  width: 45%;
+  border: 1px solid yellow;
+}
+
+.quiz1{
+  height: 50px;
+  width: 50px;
+  border: 1px solid red;
 }
